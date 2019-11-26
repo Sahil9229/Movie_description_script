@@ -9,6 +9,9 @@ title=movie['title']
 year=movie['year']
 cast=movie['cast']
 cast_list=','.join(map(str,cast))
+
+#print(cast)
+
 print('Title : ',title)
 print('Year :',year)
 print('Full Cast : ',cast_list)
